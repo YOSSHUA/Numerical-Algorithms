@@ -1,5 +1,5 @@
 % Estimate the area of a quarter circle by the Monte Carlo method
-%The Monte Carlo's method generates points in the plane and the idea is to calculate
+%The Monte Carlo_s method generates points in the plane and the idea is to calculate
 % the area with the proportion of points that lies within an area given by equation such as the circunference.
 % The area will be A = p*a*b 
 % Where each variable represents:
