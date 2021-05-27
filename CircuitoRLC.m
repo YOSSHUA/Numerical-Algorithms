@@ -1,4 +1,4 @@
-% Circuito RLC
+% RLC Circuit with Runge-Kutta 4th order
 %
 R = 10;  % ohms
 L = 2.5; %12.5;  % henries
