@@ -1,8 +1,7 @@
 function [puntos, T,proyeccion] = coefChebyshev(n,f)
 %CHEBYSHEV
-%   Dado n, se generan n términos de los
-%   polinomios de Chebyshev para obtener los coeficientes
-%   de la interpolación de f.
+%   Given n, it generates n terms of the Chebyshev Polynomials to obtain
+% the interpolation of f.
 
 
 thetaK = zeros(1,n); %1xn
