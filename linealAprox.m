@@ -1,10 +1,11 @@
 function [A, func] = aproxLineal(x_, y_, n_der)
-% X es un vector con los valores de x donde queremos que pase
-% Y es un vector con los valores de y donde queremos que pase
-% n_der te dice la derivada tal que la entrada i-ésima
-%       de x  d/d^nx(f(x(i))) = y(i)
+% X vector of values of x coordinates where we want the interpolation to pass.
+% Y vector of values of y coordinates where we want the interpolation to pass.
+% n_der vrctor that contains the n_derivate of the entry i. See below 
+%        d/d^n_der(i) x(f(x(i))) = y(i)
 
-% A es un vector con los coeficientes del polinomio resultante
+% A contains the coefficients of the polynomial that pass through all your points
+% and 
 
 xs = max(size(x_));
 if nargin == 2
