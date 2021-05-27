@@ -1,9 +1,8 @@
 function [C_, ff] = solveSyst(x,y, f, vars)
-% x es un vector con los valores de x
-% y es un vector con los valores de f(x)
-% f es el handler de la función
-% vars es un arreglo de strings con los nombres de
-% las incógnitas en f(x)
+% x - vector of x coordinates
+% y - vector of result of evaluate f(x)
+% f - handler of function
+% vars - array with names of unkown variables from f(x)
 arrayfun(@syms, vars);
 M = str2sym(string(f(x))+ "="+ string(y));
 Csym = sym(vars);
