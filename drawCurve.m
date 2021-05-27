@@ -1,7 +1,7 @@
 function [] = drawCurve(coef,f, a, b)
 %DRAWCURVE 
-%   Dados los coeficientes de  los términos de Chebyshev para aproximar f,
-%   se grafican f y la interpolación en el intervalo [a,b].
+%   Given n coefficient of Chebyshev's terms to aproximate f,
+%   it makes a graph of f in [a,b].
 x = a:0.01:b;
 t = max(size(x));
 n = max(size(coef)); % 1*n
